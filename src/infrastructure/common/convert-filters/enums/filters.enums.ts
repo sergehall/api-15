@@ -7,10 +7,10 @@ export enum PathFilterEnum {
   banStatus = 'banInfo.isBanned',
 }
 export type PatternConvertFilterType = {
-  searchNameTerm?: string;
-  searchLoginTerm?: string;
-  searchEmailTerm?: string;
-  blogId?: string;
-  userId?: string;
-  banStatus?: string;
+  searchNameTerm: string;
+  searchLoginTerm: string;
+  searchEmailTerm: string;
+  blogId: string;
+  userId: string;
+  banStatus: string;
 };

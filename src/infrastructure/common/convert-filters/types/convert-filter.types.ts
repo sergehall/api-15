@@ -6,3 +6,13 @@ export type QueryArrType = {
   userId?: string;
   banStatus?: string;
 }[];
+
+// export type TQueryArrType =
+//   | 'searchNameTerm'
+//   | 'searchLoginTerm'
+//   | 'searchEmailTerm'
+//   | 'blogId'
+//   | 'userId'
+//   | 'banStatus'
+//   | 'true'
+//   | 'false';
